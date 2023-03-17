@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Football Quiz</string>
+    <string name="question1">Tom Brady has the most Superbowl Rings</string>
+    <string name="question2">Barry Sanders has most rushing yards</string>
+    <string name="question3">Jerry Rice does not have most receiving yards</string>
+    <string name="question4">Jamar Chase made the gritty cool!</string>
+    <string name="question5">Terrel Davis had a 2,000 yard rushing season</string>
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="next_button">Next</string>
+    <string name="prev_button">Prev</string>
+    <string name="correct_string">That is Correct!</string>
+    <string name="incorrect_string">That is incorrect!</string>
+    <string name = "show_answer_button">Show me the Answer!</string>
+    <string name = "cheat_button">THIS IS CHEATING BUTTON!</string>
+    <string name = "warning_text">Are you sure you really want to do this?</string>
+    <string name = "judgement_toast">Cheating is wrong.</string>
+</resources>
