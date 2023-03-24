@@ -13,7 +13,7 @@ const val IS_CHEATER_KEY = "IS_CHEATER_KEY"
 
 class QuizViewModel(private val savedStateHandle: SavedStateHandle): ViewModel() {
     //This array is used to keep track of of which questions were answered
-    val isAnswered = arrayOf(false, false, false, false, false, false, false, false, false, false)
+    val isAnswered = arrayOf(false, false, false, false, false, false, false, false, false, false, false, false)
 
     var hasCheated = false
 
@@ -27,10 +27,12 @@ class QuizViewModel(private val savedStateHandle: SavedStateHandle): ViewModel()
         Questions(R.string.question7, true),
         Questions(R.string.question8, false),
         Questions(R.string.question9, true),
-        Questions(R.string.question10, true)
+        Questions(R.string.question10, true),
+        Questions(R.string.question11, true),
+        Questions(R.string.question12, false)
     )
 
-    val cheatQuestions = arrayOf(false, false, false, false, false, false, false, false, false, false)
+    val cheatQuestions = arrayOf(false, false, false, false, false, false, false, false, false, false, false, false)
 
     var isCheater:Boolean
         get() = savedStateHandle.get(IS_CHEATER_KEY) ?:false
