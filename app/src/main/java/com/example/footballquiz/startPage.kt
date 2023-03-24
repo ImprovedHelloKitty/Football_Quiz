@@ -21,6 +21,14 @@ import com.example.footballquiz.databinding.StartPageBinding
 
             startButton = findViewById(R.id.begin_the_quiz)
 
+            /*binding = StartPageBinding.inflate(layoutInflater)
+            setContentView(binding.root)*/
+
+            /*binding.startButton.setOnClickListener { view: View ->
+                val intent = Intent(this, MainActivity::class.java)
+            }*/
+
+
             startButton.setOnClickListener { view: View ->
                 val intent = Intent(this, MainActivity::class.java)
                 startActivity(intent)
