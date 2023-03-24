@@ -65,8 +65,10 @@ class QuizViewModel(private val savedStateHandle: SavedStateHandle): ViewModel()
         numberCorrect++
     }
 
+
     fun randomQuestion(){
         currentIndex = Random.nextInt(0,questionBank.size-1)
     }
+
 
 }
