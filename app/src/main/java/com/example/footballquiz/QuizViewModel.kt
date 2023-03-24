@@ -6,6 +6,7 @@ import android.util.Log
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.createSavedStateHandle
+import kotlin.random.Random
 
 private const val TAG = "QuizViewModel"
 const val IS_CHEATER_KEY = "IS_CHEATER_KEY"
@@ -64,6 +65,10 @@ class QuizViewModel(private val savedStateHandle: SavedStateHandle): ViewModel()
         numberCorrect++
     }
 
-    
+
+    fun randomQuestion(){
+        currentIndex = Random.nextInt(0,questionBank.size-1)
+    }
+
 
 }

@@ -12,6 +12,7 @@ import androidx.coordinatorlayout.widget.CoordinatorLayout
 import androidx.activity.viewModels
 import com.example.footballquiz.databinding.ActivityMainBinding
 import com.google.android.material.snackbar.Snackbar
+import kotlin.random.Random
 
 
 //private lateinit var true_button:Button
@@ -95,6 +96,11 @@ class MainActivity : AppCompatActivity() {
                 quizViewModel.moveToPrev()
                 updateQuestion()
             }
+        }
+
+        binding.randomButton.setOnClickListener {
+            quizViewModel.randomQuestion()
+            updateQuestion()
         }
 
         binding.cheatButton.setOnClickListener{

@@ -9,6 +9,7 @@
     <string name="false_button">False</string>
     <string name="next_button">Next</string>
     <string name="prev_button">Prev</string>
+    <string name="random_button">Random</string>
     <string name="correct_string">That is Correct!</string>
     <string name="incorrect_string">That is incorrect!</string>
     <string name = "show_answer_button">Show me the Answer!</string>
