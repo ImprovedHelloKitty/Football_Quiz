@@ -3,6 +3,8 @@ package com.example.footballquiz
 import android.app.Activity
 import android.content.Intent
 import android.util.Log
+import android.view.View
+import android.widget.Toast
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.createSavedStateHandle
@@ -76,6 +78,3 @@ class QuizViewModel(private val savedStateHandle: SavedStateHandle): ViewModel()
     fun randomQuestion(){
         currentIndex = Random.nextInt(0,questionBank.size-1)
     }
-
-
-}

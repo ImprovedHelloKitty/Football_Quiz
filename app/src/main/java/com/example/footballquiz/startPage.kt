@@ -7,7 +7,7 @@ import android.widget.Button
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import android.view.View
-import com.example.footballquiz.databinding.StartPageBinding
+
 
     class startPage : AppCompatActivity() {
 

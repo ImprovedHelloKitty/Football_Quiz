@@ -53,6 +53,17 @@ class MainActivity : AppCompatActivity() {
         //true_button = findViewById(R.id.true_button)
         //false_button = findViewById(R.id.false_button)
 
+        fun randomAnswer(){
+            val random = Random.nextInt(0, 2)
+
+            if(random == 0){
+                Toast.makeText(this, "true", Toast.LENGTH_SHORT).show()
+            }
+            else{
+                Toast.makeText(this, "false", Toast.LENGTH_SHORT).show()
+            }
+        }
+
         //what happens if you click on the buttons
         binding.trueButton.setOnClickListener {view: View ->
             //Do something if you click on true button
@@ -110,6 +121,10 @@ class MainActivity : AppCompatActivity() {
             val intent = CheatActivity.newIntent(this@MainActivity, answerIsTrue)
             //startActivity(intent)
             cheatLauncher.launch(intent)
+        }
+
+        binding.randomAnswer.setOnClickListener {
+            randomAnswer()
         }
 
         //This will get you the id for the current question in the question bank
@@ -183,6 +198,7 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, printOut, Toast.LENGTH_SHORT).show()
         }
     }
+
 }
 
 
