@@ -71,5 +71,15 @@
             android:layout_height="wrap_content"
             android:text="@string/random_button"/>
     </LinearLayout>
+
+        <Button
+            android:id="@+id/random_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/random_answer"/>
+
+
 </LinearLayout>
+
 
