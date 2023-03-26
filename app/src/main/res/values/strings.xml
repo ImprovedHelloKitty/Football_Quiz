@@ -1,10 +1,17 @@
 <resources>
     <string name="app_name">Football Quiz</string>
     <string name="question1">Tom Brady has the most Superbowl Rings</string>
-    <string name="question2">Barry Sanders has most rushing yards</string>
-    <string name="question3">Jerry Rice does not have most receiving yards</string>
+    <string name="question2">Barry Sanders has most career rushing yards</string>
+    <string name="question3">Randy Moss has the most career receiving yards</string>
     <string name="question4">Jamar Chase made the gritty cool!</string>
     <string name="question5">Terrel Davis had a 2,000 yard rushing season</string>
+    <string name="question6">Brett Favre won two Superbowls</string>
+    <string name="question7">Steelers have won the most Superbowls</string>
+    <string name="question8">The Arizona Cardinals have not played in the Superbowl</string>
+    <string name="question9">Aaron Rodgers is the proud owner of the Chicago Bears</string>
+    <string name="question10">Justin Jefferson was the 2023 OPOY</string>
+    <string name="question11">Peyton manning won a Superbowl with 2 teams</string>
+    <string name="question12">John Elway won three Superbowls</string>
     <string name="true_button">True</string>
     <string name="false_button">False</string>
     <string name="next_button">Next</string>
